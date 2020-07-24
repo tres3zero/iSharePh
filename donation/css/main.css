@@ -1,0 +1,248 @@
+
+body{
+	direction: ltr;
+	
+}
+.gridContainer{
+	width: 90%;
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.mainBg{
+	width: 85%;
+	margin: 0 auto;
+}
+header{
+	border-bottom: 34px solid #077fb8;
+}
+.attention{
+	font-style: italic;
+    text-align: center;
+    color: #666;
+    margin: 15px 0;
+}
+.attention p{
+	font-size: 16px;
+}
+.attention p span{
+	font-weight: bold;
+}
+.questionTitle{
+	color: #000;
+	text-align: center;
+	margin: 15px 0; 
+}
+.questionTitle h1{
+	font-weight: 700;
+}
+.hugeFont{
+	font-size: 13px;
+}
+.middleFont{
+	font-size: 14px;
+}
+.subTitle{
+	margin: 15px 0;
+	text-align: center;
+	background-color: #fafafa;
+	padding: 5px;
+}
+.subTitle p{
+	color: #666666;
+	font-size: 21px;
+	font-weight: 700;
+}
+.mostPop{
+	margin: 20px 0;
+}
+.mostPop p{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.mostPop p span{
+	font-weight: bold;
+}
+.product-brief{
+	text-align: center;
+	color: #000;
+}
+.product-brief p{
+	font-style: italic;
+	font-size: 25px;
+	font-weight: 500;
+}
+.productImage {
+	width: 95%;
+	margin: 15px auto;
+
+}
+.component{
+	border:3px solid #000;
+	width: 95%;
+	max-width: 600px;
+	margin: 30px auto;
+}
+.componentContainer{
+	padding: 15px;
+}
+.componentImage{
+	width: 95%;
+	margin: 15px auto;
+	max-width: 400px;
+}
+.component ul{
+	margin: 20px 0;
+	text-align: left;
+	padding-left:40px; 
+}
+.component ul li{
+	margin-bottom: 15px;
+	text-align: left;
+}
+.component ul li span{
+	font-size: 16px;
+    color: #000;
+  
+}
+.component ul li.bold span , .bold{
+	font-weight: bold;
+}
+.Red{
+	color: #C30003;
+	font-size: 16px;
+	margin: 50px 0 30px;
+}
+.howTo{
+
+	margin: 50px 0; 
+}
+.risk{
+	background-repeat: no-repeat;
+	height: 365px;
+	width: 90%;
+	margin: 0 auto;
+	max-width: 527px;
+	display: block;
+	position: relative;
+}
+.riskContainer{
+	padding:99px 30px 0 35px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.risk img{
+	height: 100%;
+}
+.accessBox{
+	border:6px dashed #9b0707;
+	width: 95%;
+	max-width: 600px;
+	margin: 30px auto;
+}
+.accessBoxContainer{
+	padding: 30px;
+}
+
+.accessBoxContainer ul{
+	margin: 20px 0;
+	text-align: left;
+	padding-left:40px; 
+}
+.accessBoxContainer ul li{
+	margin-bottom: 15px;
+	text-align: left;
+}
+.accessBoxContainer ul li span{
+	font-size: 18px;
+    color: #000; 
+}
+.button{
+text-align: center;
+position: relative;
+}
+.button img{
+	width: 90%;
+max-width: 288px;
+
+}
+.button button{
+	background:none;
+	border:none;
+	outline: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	position: absolute;
+}
+footer{
+	background-color: #077fb8;
+}
+.footerImage{
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto
+}
+
+
+
+
+
+
+.sourcesGridContainer{
+	width: 90%;
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 60px 15px 0; 
+}
+.onlyComponent{
+	border:3px dashed #E74C3C;
+	background-color: #ffffff;
+	padding: 15px;
+}
+.processImage{
+	margin: 10px auto;
+	width: 90%;
+	max-width: 825px;
+}
+.components{
+	padding: 0 15px;
+}
+.oneBook{
+	width: 100%;
+}
+.oneDecription{
+	width: 100%;
+}
+.descFooter{
+	text-align: center;
+}
+.big-width{
+	display: none;
+}
+@media screen and (min-width: 768px) {
+.oneBook{
+	float: left;
+	width: 35%;
+}
+.oneDecription{
+	float: right;
+	width: 65%;
+	margin-bottom: 15px;
+}
+.big-width{
+	display: block;
+}
+.small-width{
+	display: none;
+}
+}
+@media screen and (min-width: 650px){
+	.hugeFont{
+		font-size: 19px;
+	}
+}
